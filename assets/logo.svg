@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Nurturing Flora</title>
+  <g transform="translate(140 38)">
+    <path d="M-2 18 C-8 4 -28 -8 -36 -22 C-18 -10 -6 2 -2 18 Z" fill="#2D4F44"/>
+    <path d="M-18 -8 C-24 -14 -30 -18 -34 -20" fill="none" stroke="#F7F5F0" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M2 18 C8 4 28 -8 36 -22 C18 -10 6 2 2 18 Z" fill="#92A68A"/>
+    <path d="M18 -8 C24 -14 30 -18 34 -20" fill="none" stroke="#F7F5F0" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M10 22 C14 28 12 34 8 36 C4 34 2 28 6 22 Z" fill="#5BA8A0"/>
+  </g>
+  <text x="140" y="98" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="3.5" fill="#2D4F44">Nurturing Flora</text>
+</svg>
