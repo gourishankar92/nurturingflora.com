@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Outdoor Plants · Nurturing Flora</title>
+  <meta name="description" content="Browse outdoor plant care guides with photos and essentials." />
+  <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="inner-page">
+  <div class="top-header">
+    <div class="container top-header-inner">
+      <div><span class="meta-item"><a href="mailto:hello@nurturingflora.com">hello@nurturingflora.com</a></span></div>
+      <div><span class="meta-item"><strong data-stat="outdoor">—</strong> outdoor plants</span></div>
+    </div>
+  </div>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><img src="assets/logo-mark.svg" alt="" width="42" height="42" /><span class="brand-mark">Nurturing Flora</span></a>
+      <button class="nav-toggle" type="button" aria-label="Menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="indoor.html">Indoor</a></li>
+        <li><a href="outdoor.html" aria-current="page">Outdoor</a></li>
+        <li><a href="guides.html">Care Guides</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="breadcrumb-area" style="background-image:url('assets/plants/hibiscus-gulhad-viceroy-chinese-hibiscus.webp')">
+    <div class="breadcrumb-content">
+      <h2>Outdoor Plants</h2>
+      <nav><a href="index.html">Home</a> / <span>Outdoor</span></nav>
+    </div>
+  </div>
+
+  <main class="section-padding bg-light">
+    <div class="container">
+      <div class="toolbar">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input type="search" placeholder="Search outdoor plants..." data-plant-search aria-label="Search" />
+        </div>
+        <div class="filters">
+          <button type="button" class="chip is-active" data-filter-chip="all">All</button>
+          <button type="button" class="chip" data-filter-chip="flowering">Flowering</button>
+          <button type="button" class="chip" data-filter-chip="fragrant">Fragrant</button>
+          <button type="button" class="chip" data-filter-chip="succulent">Succulent</button>
+          <button type="button" class="chip" data-filter-chip="climber">Climbers</button>
+        </div>
+      </div>
+      <div class="results-bar"><span data-results-count>Loading…</span></div>
+      <div class="plant-grid" data-plant-grid data-category="outdoor"></div>
+      <div class="pagination" data-pagination></div>
+    </div>
+  </main>
+
+  <footer class="footer-area">
+    <div class="container main-footer">
+      <div class="footer-grid">
+        <div class="footer-widget">
+          <div class="footer-brand"><img src="assets/logo-mark.svg" alt="" width="36" height="36" /><span>Nurturing Flora</span></div>
+          <p>Plant care information — no shop, just guidance.</p>
+        </div>
+        <div class="footer-widget"><h5>Explore</h5><ul><li><a href="indoor.html">Indoor</a></li><li><a href="outdoor.html">Outdoor</a></li><li><a href="guides.html">Guides</a></li></ul></div>
+        <div class="footer-widget"><h5>Site</h5><ul><li><a href="about.html">About</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+        <div class="footer-widget"><h5>Contact</h5><p><a href="mailto:hello@nurturingflora.com">hello@nurturingflora.com</a></p></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container">© 2026 Nurturing Flora</div></div>
+  </footer>
+  <script src="js/plants.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
